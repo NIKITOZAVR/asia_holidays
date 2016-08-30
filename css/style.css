@@ -1,0 +1,174 @@
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+  }
+  body {
+    background-image: url(../img/bg.jpg)
+  }
+
+  .wrapper {
+    position: absolute;
+    width: 1000px;
+    height:890px;
+    left: 330px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+  }
+
+/*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*//*HEADER*/
+  .header {
+    height: 422px;
+  }
+
+  .header-logo {
+    height: 184px;
+    background: white;
+    padding: 0 30px;
+  }
+
+  .logo-asia img {
+    float: left;
+    width: 300px;
+    height: 184px;
+  }
+
+  .contact {
+    width: 150px;
+    height: 73px;
+    float: right;
+    text-align: left;
+    padding-left: 190px;
+    padding-top: 5px;
+    color: #128aa7;
+    font-size: 13px;
+  }
+
+  .country {
+    float: right;
+    width: 335px;
+    height: 68px;
+    padding-top: 30px;
+    font-size: 11px;
+
+  }
+  .name-of-country a{
+    color: #128aa7;
+  }
+
+  .name-of-country .india {padding-left: 5px;}
+  .name-of-country .nepal {padding-left: 23px;}
+  .name-of-country .tibet {padding-left: 24px;}
+  .name-of-country .butan {padding-left: 20px;}
+  .name-of-country .srilanka {padding-left: 12px;}
+  .name-of-country .maldives {padding-left: 2px;}
+
+  .header-image img{
+    border: 1px solid #2b838b;
+    width: 99.8%;
+  }
+
+/*CONTENT*/  /*CONTENT*/  /*CONTENT*/  /*CONTENT*/  /*CONTENT*/  /*CONTENT*/  /*CONTENT*/
+/*CONTENT*/ > /*MENU*/
+  .content {
+    height: 468px;
+  }
+
+  .menu {
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+    box-shadow-bottom: 0px 2px 7px 0px rgba(0,0,0,0.75);
+
+    background: #373737; /* Old browsers */
+    background: -moz-linear-gradient(top,  #373737 0%, #303030 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #373737 0%,#303030 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #373737 0%,#303030 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030',GradientType=0 ); /* IE6-9 */
+  }
+
+  ul {
+    list-style: none;
+  }
+  .menu > ul > li{
+    float: left;
+    position: relative;
+  }
+
+  .menu > ul > li > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 28px;
+    padding: 0 34px;
+  }
+
+  ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+  }
+
+.menu-bar-submenu {
+  display: none;
+  position: absolute;
+  width: 120px;
+  top: 28px;
+  left: 24px;
+  background-color: #303030;
+}
+
+  .menu-bar-submenu > li > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 25px;
+    padding: 0px 10px;
+  }
+
+li:hover > .menu-bar-submenu {
+    display: block;
+  }
+
+
+
+/*CONTENT*/ > /*BARS*/
+
+  h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .left-bar {
+    font-size: 15px;
+    width: 209px;
+    border: 1px solid #c7cacf;
+    height: 437px;
+    float: left;
+    background-color: #edeef0;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .right-bar {
+    font-size: 15px;
+    width: 209px;
+    height: 437px;
+    border: 1px solid #c7cacf;
+    float: right;
+    background-color: #edeef0;
+    text-align: center;
+    line-height: 25px;
+
+    }
+
+/*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
+.footer {
+  position: absolute;
+  top: 900px;
+  left: 706px;
+  color: white;
+}
