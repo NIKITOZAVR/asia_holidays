@@ -52,18 +52,52 @@
     height: 68px;
     padding-top: 30px;
     font-size: 11px;
-
+    overflow: hidden;
   }
   .name-of-country a{
     color: #128aa7;
+    background: url(../img/country.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    height: 60px;
+    width: 45px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 47px;
+  }
+  .name-of-country li {
+    float: left;
   }
 
-  .name-of-country .india {padding-left: 5px;}
-  .name-of-country .nepal {padding-left: 23px;}
-  .name-of-country .tibet {padding-left: 24px;}
-  .name-of-country .butan {padding-left: 20px;}
-  .name-of-country .srilanka {padding-left: 12px;}
-  .name-of-country .maldives {padding-left: 2px;}
+
+  .name-of-country .india {
+    margin-left: 6px;
+    background-position: 0px 0px;
+  }
+  .name-of-country .nepal {
+    margin-left: 6px;
+    background-position: -57px 0px;
+  }
+  .name-of-country .tibet {
+    margin-left: 6px;
+    background-position: -114px 0px;
+  }
+  .name-of-country .butan {
+    margin-left: 6px;
+    background-position: -169px 0px;
+  }
+  .name-of-country .srilanka {
+    margin-left: 6px;
+    background-position: -219px 0px;
+    height: 45px;
+    width: 56px;
+    box-sizing: border-box;
+
+  }
+  .name-of-country .maldives {
+    margin-left: 6px;
+    background-position: -280px 0px;
+  }
 
   .header-image img{
     border: 1px solid #2b838b;
